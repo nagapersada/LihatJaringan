@@ -104,6 +104,10 @@ function getRankLevel(uid) {
         rankCache[uid] = 3;
         return 3;
     }
+    if (uid === '814382') {
+        rankCache[uid] = 5;
+        return 5;
+    }
     // --------------------------------------------
 
     const team = getDownlinesRecursive(uid);
